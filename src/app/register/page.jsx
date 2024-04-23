@@ -76,6 +76,7 @@ function RegisterPage() {
   return (
     <>
       <Navbar />
+      
       <div className="flex-grow">
         <div className="flex justify-center items-center">
           <div className="w-[400px] shadow-xl p-10 mt-5 rounded-xl">
