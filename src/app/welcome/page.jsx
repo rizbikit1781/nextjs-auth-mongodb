@@ -15,7 +15,7 @@ const Welcome = () => {
   return (
     <div >
         <Navbar session={session} />
-        <div className='container mx-auto'>
+        <div className='m-5'>
             <h3 className='text-3xl my-3 font-bold'>Welcome {session?.user?.name}</h3>
             <p>Email: {session?.user?.email}</p>
             <hr className='py-2 '/>
