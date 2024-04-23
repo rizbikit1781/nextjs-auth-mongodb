@@ -14,6 +14,7 @@ const Welcome = () => {
 
   return (
     <div >
+
         <Navbar session={session} />
         <div className='m-5'>
             <h3 className='text-3xl my-3 font-bold'>Welcome {session?.user?.name}</h3>
@@ -21,6 +22,7 @@ const Welcome = () => {
             <hr className='py-2 '/>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas unde laboriosam quibusdam! Laborum perferendis ipsum est facere accusantium nostrum maxime earum praesentium alias rem ullam, at placeat deserunt in similique!</p>
         </div>
+        
     </div>
   )
 }
